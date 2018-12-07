@@ -1,0 +1,65 @@
+<div class="body-header">
+	<h1>Listar Reservas</h1>
+</div>
+
+<div class="body-content ">
+	<div class="table-responsive">
+		<table class="table table-sm table-hover">
+
+			<thead>
+				<tr>
+					<th>Nombre</th>
+					<th>Telefono</th>
+					<th>Fecha</th>
+					<th>Hora</th>
+					<th>Direccion</th>
+					<th>Sector</th>
+					<th>Vuelo</th>
+					<th>N° acompañantes</th>
+					<th colspan="2">Opciones</th>
+				</tr>
+			</thead>
+
+			<tbody>
+				<tr>
+					<td>John Jara</td>
+					<td>9 54739328</td>
+					<td>23/09/2018</td>
+					<td>10:30</td>
+					<td>Irene morales 025</td>
+					<td>Poniente</td>
+					<td>Vuelo 1</td>
+					<td>3</td>
+					<td>
+						<a ui-sref="app" type="submit" class="btn btn-primary">Eliminar</a>
+					</td>
+					<td>
+						<button type="submit" class="btn btn-primary">Modificar</button>
+					</td>
+				</tr>
+
+				<tr>
+					<td>Javiera Jara</td>
+					<td>9 57295294</td>
+					<td>21/09/2018</td>
+					<td>11:30</td>
+					<td>Irene morales 026</td>
+					<td>Occidente</td>
+					<td>Vuelo 3</td>
+					<td>2</td>
+					<td>
+						<a ui-sref="app" type="submit" class="btn btn-primary">Eliminar</a>
+					</td>
+					<td>
+						<button type="submit" class="btn btn-primary">Modificar</button>
+					</td>
+				</tr>
+			</tbody>
+		</table>	
+	</div>
+	<div class="row">
+		<div class="col-2 offset-10">
+			<a ui-sref="ingresarReserva" type="submit" class="btn btn-primary">Agregar reserva</a>
+		</div>
+	</div>
+</div>

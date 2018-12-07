@@ -1,0 +1,90 @@
+<div class="body-header">
+	<h1>Ingresar Reserva</h1>
+</div>
+
+<div class="body-content">
+
+	<form action="/action_page.php">
+		<div class="row">
+			<div class="col-6">
+				<div class="form-group">
+					<label for="nombre_cliente">Nombre</label>
+					<input type="text" id="nombre_cliente" class="form-control">
+				</div>
+			</div>
+			<div class="col-6">
+				<div class="form-group">
+					<label for="apellido_cliente">Apellido</label>
+					<input type="text" class="form-control" id="apellido_cliente">
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-6">
+				<div class="form-group">
+					<label for="telefono">Telefono</label>
+					<input type="text" class="form-control" id="telefono">
+				</div>
+			</div>
+			<div class="col-6">
+				<div class="form-group">
+					<label for="fecha_reserva">Fecha de reserva</label>
+					<input type="date" class="form-control" id="fecha_reserva">
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-6">
+				<div class="form-group">
+					<label for="hora_recogida">Hora recogida</label>
+					<input type="time" class="form-control" id="hora_recogida">
+				</div>
+			</div>
+			<div class="col-6">
+				<div class="form-group">
+					<label for="direccion_recogida">Dirección recogida</label>
+					<input type="text" class="form-control" id="direccion_recogida">
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-6">
+				<div class="form-group">
+					<label for="sector">Sector</label>
+					<input type="text" class="form-control" id="sector">
+				</div>
+			</div>
+			<div class="col-6">
+				<div class="form-group">
+					<label for="cant_acompañantes">Cantidad de acompañantes</label>
+					<input type="number" class="form-control" id="cant_acompañantes">
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-12">
+				<div class="form-group">
+					<label for="vuelo">Vuelo</label>
+					<select class="form-control" id="vuelo">
+						<option value="">1</option>
+						<option value="">2</option>
+						<option value="">3</option>	
+					</select>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-2 offset-8">
+				<a ui-sref="app" type="submit" class="btn btn-primary col-12">Cancelar</a>
+			</div>
+			<div class="col-2">
+				<button type="submit" class="btn btn-primary col-12">Guardar</button>
+			</div>
+		</div>
+	</form>
+</div>
